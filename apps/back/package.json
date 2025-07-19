@@ -1,7 +1,7 @@
 {
-    "name": "back",
+    "name": "Backend",
     "version": "1.0.0",
     "scripts": {
-        "dev:back": "python -m uvicorn main:app --reload --port 8000"
+        "dev": "python -m uvicorn main:app --reload --port 8000"
     }
 }
