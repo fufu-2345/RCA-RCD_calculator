@@ -15,7 +15,7 @@ prettier 3.5.3
   
 # Port  
 web: 3000  
-docs: 3001  
+back: 3001  
   
 # Start  
 pnpm dev(pnpm run dev)       
