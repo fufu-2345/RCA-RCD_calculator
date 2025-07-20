@@ -1,9 +1,9 @@
-﻿Code,Product label,Exported value in 2020,Exported value in 2021,Exported value in 2022,Exported value in 2023,Exported value in 2024,"average exported value, US Dollar thousand"
+﻿Code,Product label,Exported value in 2020,Exported value in 2021,Exported value in 2022,Exported value in 2023,Exported value in 2024,
 'TOTAL,All products,6132785,7164608,9563892,6042418,11078358,7996412.2
 '01,Live animals,294284,256568,132323,36243,454,143974.4
 '02,Meat and edible meat offal,5607,4013,2910,4459,2,3398.2
 '03,"Fish and crustaceans, molluscs and other aquatic invertebrates",43,21,59,254,84,92.2
-'04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere ...",401,61,502,4340,,1326
+'04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere ...",401,61,502,4340,00,1326
 '05,"Products of animal origin, not elsewhere specified or included",9,187,106,109,83,98.8
 '06,"Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",863,1067,2290,1172,344,1147.2
 '07,Edible vegetables and certain roots and tubers,239892,322259,709678,370151,414437,411283.4
@@ -36,7 +36,7 @@
 '34,"Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial ...",179,171,264,593,65,254.4
 '35,Albuminoidal substances; modified starches; glues; enzymes,0,10,6,36,1,10.6
 '36,Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,373,785,1026,1422,1249,971
-'37,Photographic or cinematographic goods,0,0,0,0,,0
+'37,Photographic or cinematographic goods,0,0,0,0,00,0
 '38,Miscellaneous chemical products,1113,1203,3362,3807,8998,3696.6
 '39,Plastics and articles thereof,39142,25953,15516,7583,12226,20084
 '40,Rubber and articles thereof,215091,287776,382363,312404,572007,353928.2
@@ -44,7 +44,7 @@
 '42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles ...",1649,1092,1316,999,1871,1385.4
 '43,Furskins and artificial fur; manufactures thereof,0,0,0,0,1,0.2
 '44,Wood and articles of wood; wood charcoal,21737,48551,61721,33661,182629,69659.8
-'45,Cork and articles of cork,0,0,1,0,,0.25
+'45,Cork and articles of cork,0,0,1,0,00,0.25
 '46,"Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",73,84,51,34,11,50.6
 '47,Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or ...,290120,297159,359819,284051,290499,304329.6
 '48,"Paper and paperboard; articles of paper pulp, of paper or of paperboard",11164,528933,491282,467460,437575,387282.8
@@ -77,7 +77,7 @@
 '75,Nickel and articles thereof,0,79,27,3,5727,1167.2
 '76,Aluminium and articles thereof,1583,2117,2926,2464,7679,3353.8
 '78,Lead and articles thereof,6610,9959,15708,20847,21739,14972.6
-'79,Zinc and articles thereof,561,153,1,0,,178.75
+'79,Zinc and articles thereof,561,153,1,0,00,178.75
 '80,Tin and articles thereof,49,1038,7141,12697,1334,4451.8
 '81,Other base metals; cermets; articles thereof,515,697,465,3,40,344
 '82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal",741,807,619,919,707,758.6
@@ -91,7 +91,7 @@
 '90,"Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical ...",26492,28396,33835,34972,257928,76324.6
 '91,Clocks and watches and parts thereof,0,9,10,48,35,20.4
 '92,Musical instruments; parts and accessories of such articles,8,3,1,1,8,4.2
-'93,Arms and ammunition; parts and accessories thereof,0,0,0,0,,0
+'93,Arms and ammunition; parts and accessories thereof,0,0,0,0,00,0
 '94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; ...",23075,37923,33010,10425,86663,38219.2
 '95,"Toys, games and sports requisites; parts and accessories thereof",3513,8134,10549,10120,27857,12034.6
 '96,Miscellaneous manufactured articles,200,564,264,392,348,353.6

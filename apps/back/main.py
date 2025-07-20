@@ -14,7 +14,7 @@ app.add_middleware(
 )
 @app.get("/")
 def root():
-    filepath = f"./data/world/World.csv"
+    filepath = f"./RCA/world/World.csv"
     if not os.path.exists(filepath):
         return {"error": "File not found"}
     
@@ -25,7 +25,7 @@ def root():
     
 @app.get("/get_folders")
 def list_folders():
-    base_path = "./data"
+    base_path = "./RCA"
     try:
         folders = [name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name))]
         print(folders)
@@ -35,8 +35,7 @@ def list_folders():
 
 @app.get("/read_csv")
 def read_csv(filename: str = Query(...)):
-    print("./data/"+filename+"/"+filename+".csv")
-    filepath = f"./data/{filename}/{filename}.csv"
+    filepath = f"./RCA/{filename}/{filename}.csv"
     
     if not os.path.exists(filepath):
         return {"error": "File not found"}
