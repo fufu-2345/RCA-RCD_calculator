@@ -14,14 +14,7 @@ app.add_middleware(
 )
 @app.get("/")
 def root():
-    filepath = f"./RCA/world/World.csv"
-    if not os.path.exists(filepath):
-        return {"error": "File not found"}
-    
-    df = pd.read_csv(filepath)
-    print("a")
-    return df.to_dict(orient="records")
-    #return {"message": "Welcome to the FastAPI application!"}
+    return "aaa"
     
 @app.get("/get_folders")
 def list_folders():
