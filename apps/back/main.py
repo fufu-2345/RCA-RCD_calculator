@@ -16,13 +16,12 @@ app.add_middleware(
 def root():
     return "aaa"
     
-@app.get("/get_folders")
-def list_folders():
+@app.get("/getOptionList")
+def getOptionList():
     base_path = "./RCA"
     try:
-        folders = [name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name))]
-        print(folders)
-        return {"folders": folders}
+        optionList = [name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name))]
+        return {"optionList": optionList}
     except Exception as e:
         return {"error": str(e)}
 

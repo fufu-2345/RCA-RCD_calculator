@@ -5,20 +5,20 @@ import React, { useState, useEffect } from 'react';
 function Page() {
   const [filename, setFilename] = useState<string>('');
   const [data, setData] = useState([]);
-  const [folders, setFolders] = useState([]);
+  const [optionList, setOptionList] = useState([]);
   const [mode, setMode] = useState<string>("RCA");
   const [size, setSize] = useState<number>(2);
   const [nation, setNation] = useState<string[]>(["Thailand", "Thailand"]);
 
   useEffect(() => {
-    const fetchFolders = async () => {
-      const response = await fetch("http://localhost:8000/get_folders");
-      const json = await response.json();
-      if (json.folders) {
-        setFolders(json.folders);
+    (async () => {
+      const res = await fetch("http://localhost:8000/getOptionList");
+      const json = await res.json();
+      console.log(json)
+      if (json.optionList) {
+        setOptionList(json.optionList);
       }
-    };
-    fetchFolders();
+    })
   }, []);
 
   const fetchData = async () => {
@@ -45,16 +45,16 @@ function Page() {
       {Array.from({ length: size }, (_, i) => (
         <span key={i} className="bg-white border-black border-[1px] text-center p-[1em] my-[10px]" >
           <select value={nation[i]} onChange={e => { const temp = [...nation]; temp[i] = e.target.value; setNation(temp); }}>
-            {folders.map((folder, index) => (
-              <option key={index} value={folder}>
-                {folder}
+            {optionList.map((optionList, index) => (
+              <option key={index} value={optionList}>
+                {optionList}
               </option>
             ))}
           </select>
         </span>
       ))}<br /><br />
 
-      <button onClick={fetchData}>โหลดไฟล์</button>
+      <button onClick={fetchData}>generate</button>
 
     </div>
   );
