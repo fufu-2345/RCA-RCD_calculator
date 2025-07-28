@@ -3,11 +3,10 @@
 import React, { useState, useEffect } from 'react';
 
 function Page() {
-  const [filename, setFilename] = useState<string>('');
-  const [data, setData] = useState([]);
-  const [optionList, setOptionList] = useState([]);
+  const [data, setData] = useState<Record<string, string | number>[]>([]);
+  const [optionList, setOptionList] = useState<string[]>([]);
   const [mode, setMode] = useState<string>("RCA");
-  const [size, setSize] = useState<number>(2);
+  const [size, setSize] = useState<number>(2);/* amount of nation */
   const [nation, setNation] = useState<string[]>(["Thailand", "Thailand"]);
 
   useEffect(() => {
@@ -18,13 +17,21 @@ function Page() {
       if (json.optionList) {
         setOptionList(json.optionList);
       }
-    })
+    })()
   }, []);
 
-  const fetchData = async () => {
-    const response = await fetch(`http://localhost:8000/read_csv?filename=${filename}`);
+  const gen = async () => {
+    const query = nation.map(n => `filename=${encodeURIComponent(n)}`).join("&");
+    const response = await fetch(`http://localhost:8000/gen?${query}`);
     const json = await response.json();
-    setData(json);
+
+    const formatted = (json.data as any[][]).map((row: any[]) =>
+      Object.fromEntries(
+        (json.columns as string[]).map((key: string, i: number) => [key, row[i]])
+      )
+    );
+
+    setData(formatted);
   };
 
   const handleSetMode = () => {
@@ -54,8 +61,28 @@ function Page() {
         </span>
       ))}<br /><br />
 
-      <button onClick={fetchData}>generate</button>
+      <button onClick={gen}>generate</button>
 
+      {Array.isArray(data) && data.length > 0 && (
+        <table>
+          <thead>
+            <tr>
+              {data[0] && Object.keys(data[0]).map(key => (
+                <th key={key}>{key}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item, index) => (
+              <tr key={index}>
+                {Object.values(item).map((value, i) => (
+                  <td key={i}>{value}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
     </div>
   );
 }
