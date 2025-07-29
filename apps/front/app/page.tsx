@@ -11,7 +11,7 @@ function Page() {
 
   useEffect(() => {
     (async () => {
-      const res = await fetch("http://localhost:8000/getOptionList");
+      const res = await fetch(`http://localhost:8000/getOptionList?mode=${mode}`);
       const json = await res.json();
       console.log(json)
       if (json.optionList) {
@@ -35,7 +35,17 @@ function Page() {
   };
 
   const handleSetMode = () => {
-    setMode(mode === 'RCA' ? 'RCD' : 'RCA');
+    const newmode: string = (mode === 'RCA' ? 'RCD' : 'RCA');
+    console.log(newmode);
+    (async () => {
+      const res = await fetch(`http://localhost:8000/getOptionList?mode=${newmode}`);
+      const json = await res.json();
+      console.log(json)
+      if (json.optionList) {
+        setOptionList(json.optionList);
+      }
+    })()
+    setMode(newmode);
   };
 
   return (
@@ -62,7 +72,7 @@ function Page() {
       ))}<br /><br />
 
       <button onClick={gen}>generate</button>
-
+      <br />
       {Array.isArray(data) && data.length > 0 && (
         <table>
           <thead>
@@ -83,6 +93,7 @@ function Page() {
           </tbody>
         </table>
       )}
+      <br />
     </div>
   );
 }

@@ -20,8 +20,9 @@ def root():
     return "aaa"
     
 @app.get("/getOptionList")
-def getOptionList():
-    base_path = "./RCA"
+def getOptionList(mode: str):
+    base_path = f"./{mode}"
+    print(base_path)
     try:
         optionList = [name for name in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, name))]
         return {"optionList": optionList}
