@@ -15,13 +15,17 @@ prettier 3.5.3
   
 # Port  
 web: 3000  
-back: 3001  
+back: 5000
   
 # Start  
 pnpm dev(pnpm run dev)       
   
 # Source  
 npx create-turbo@latest -e with-tailwind  
+  
+# Other  
+pip freeze > requirements.txt  
+pip install -r requirements.txt  
   
 # More detail  
 - [Tailwind CSS](https://tailwindcss.com/) for styles  
