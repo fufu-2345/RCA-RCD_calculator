@@ -1,0 +1,99 @@
+﻿Code,Product label,Imported value in 2020,Imported value in 2021,Imported value in 2022,Imported value in 2023,Imported value in 2024,average
+'TOTAL,All products,208615061,269102030,306260910,292053342,310155165,277237301.6
+'01,Live animals,78538,47407,133561,73227,39149,74376.4
+'02,Meat and edible meat offal,158524,202841,291698,249454,323834,245270.2
+'03,"Fish and crustaceans, molluscs and other aquatic invertebrates",3225038,3401088,3937659,3598580,3492894,3531051.8
+'04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere ...",724753,853396,1006885,906153,902238,878685
+'05,"Products of animal origin, not elsewhere specified or included",56344,59985,64091,57579,61376,59875
+'06,"Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",53090,72305,55632,61767,59576,60474
+'07,Edible vegetables and certain roots and tubers,975309,1011566,1235513,1258072,1379878,1172067.6
+'08,Edible fruit and nuts; peel of citrus fruit or melons,1152923,1264459,1288984,1296276,1561102,1312748.8
+'09,"Coffee, tea, maté and spices",416235,448231,504791,544696,604226,503635.8
+'10,Cereals,1271019,1403228,1172368,2005690,1757840,1522029
+'11,Products of the milling industry; malt; starches; inulin; wheat gluten,305824,339705,444887,476563,387226,390841
+'12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit; industrial or medicinal ...",1865274,2516658,2260775,2289223,2247011,2235788.2
+'13,"Lac; gums, resins and other vegetable saps and extracts",127029,152340,177537,143487,149775,150033.6
+'14,Vegetable plaiting materials; vegetable products not elsewhere specified or included,50490,45676,67274,42716,32881,47807.4
+'15,"Animal, vegetable or microbial fats and oils and their cleavage products; prepared edible fats; ...",320115,367838,467186,344216,384418,376754.6
+'16,"Preparations of meat, of fish, of crustaceans, molluscs or other aquatic invertebrates, or ...",293063,275320,389321,384605,450466,358555
+'17,Sugars and sugar confectionery,278762,381557,369166,525752,681548,447357
+'18,Cocoa and cocoa preparations,188484,211803,261144,261608,312243,247056.4
+'19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",625943,635065,686753,690416,747362,677107.8
+'20,"Preparations of vegetables, fruit, nuts or other parts of plants",342316,325283,373567,401115,429610,374378.2
+'21,Miscellaneous edible preparations,1111657,1203290,1207601,1130719,1340233,1198700
+'22,"Beverages, spirits and vinegar",333617,309032,492880,511649,479322,425300
+'23,Residues and waste from the food industries; prepared animal fodder,2033469,2518718,2714693,2964726,2571110,2560543.2
+'24,"Tobacco and manufactured tobacco substitutes; products, whether or not containing nicotine, ...",275025,291545,260944,217261,185937,246142.4
+'25,"Salt; sulphur; earths and stone; plastering materials, lime and cement",306417,405760,452986,431207,416463,402566.6
+'26,"Ores, slag and ash",302317,569504,537705,539104,617457,513217.4
+'27,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral ...",28783205,41309573,63612592,55132635,51760131,48119627.2
+'28,"Inorganic chemicals; organic or inorganic compounds of precious metals, of rare-earth metals, ...",1818674,2727563,3323428,2464635,2667209,2600301.8
+'29,Organic chemicals,4089417,5651310,5666746,4715789,4831938,4991040
+'30,Pharmaceutical products,2491547,3790159,3516434,3145200,3082061,3205080.2
+'31,Fertilisers,1528362,2302236,3113313,2268738,2598613,2362252.4
+'32,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring ...",1444388,1681364,1671168,1463497,1561669,1564417.2
+'33,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",1549398,1500316,1678818,1842167,2053363,1724812.4
+'34,"Soap, organic surface-active agents, washing preparations, lubricating preparations, artificial ...",737601,904345,923688,830446,920262,863268.4
+'35,Albuminoidal substances; modified starches; glues; enzymes,377581,436110,459446,428986,437492,427923
+'36,Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,61507,53773,58676,66666,56103,59345
+'37,Photographic or cinematographic goods,111297,119513,146412,125143,126844,125841.8
+'38,Miscellaneous chemical products,4115324,6284527,6713841,5880916,5066729,5612267.4
+'39,Plastics and articles thereof,8590211,10771305,10930720,9841984,10660965,10159037
+'40,Rubber and articles thereof,2441933,3312029,2989996,2815102,3017792,2915370.4
+'41,Raw hides and skins (other than furskins) and leather,429271,556865,618464,480930,523533,521812.6
+'42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles ...",610284,675041,969167,1109407,1109692,894718.2
+'43,Furskins and artificial fur; manufactures thereof,170906,361409,172819,312378,300889,263680.2
+'44,Wood and articles of wood; wood charcoal,501940,582952,624279,527901,568601,561134.6
+'45,Cork and articles of cork,1449,1537,1582,2428,4504,2300
+'46,"Manufactures of straw, of esparto or of other plaiting materials; basketware and wickerwork",4800,5667,7030,6855,7156,6301.6
+'47,Pulp of wood or of other fibrous cellulosic material; recovered (waste and scrap) paper or ...,548504,1264493,1280121,1212921,1234557,1108119.2
+'48,"Paper and paperboard; articles of paper pulp, of paper or of paperboard",1659502,1881322,2038418,1890636,2116629,1917301.4
+'49,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, ...",292373,266392,190220,185307,187680,224394.4
+'50,Silk,4741,6228,9649,15423,8893,8986.8
+'51,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",69757,74054,93805,79106,76235,78591.4
+'52,Cotton,473320,567643,931333,566432,489970,605739.6
+'53,Other vegetable textile fibres; paper yarn and woven fabrics of paper yarn,12337,15340,15436,16619,15857,15117.8
+'54,Man-made filaments; strip and the like of man-made textile materials,669619,880640,961533,820303,834111,833241.2
+'55,Man-made staple fibres,279153,326312,368350,351232,331509,331311.2
+'56,"Wadding, felt and nonwovens; special yarns; twine, cordage, ropes and cables and articles thereof",288393,347063,329480,308273,328815,320404.8
+'57,Carpets and other textile floor coverings,48383,52537,63752,61347,65279,58259.6
+'58,Special woven fabrics; tufted textile fabrics; lace; tapestries; trimmings; embroidery,166377,168597,172461,161680,172858,168394.6
+'59,"Impregnated, coated, covered or laminated textile fabrics; textile articles of a kind suitable ...",467463,633577,598164,534256,561118,558915.6
+'60,Knitted or crocheted fabrics,378680,450984,456613,377197,440898,420874.4
+'61,"Articles of apparel and clothing accessories, knitted or crocheted",480887,441379,594255,719719,697924,586832.8
+'62,"Articles of apparel and clothing accessories, not knitted or crocheted",633952,620283,718780,771398,923463,733575.2
+'63,Other made-up textile articles; sets; worn clothing and worn textile articles; rags,378437,482469,468674,450138,471007,450145
+'64,"Footwear, gaiters and the like; parts of such articles",525217,496627,638942,757710,803052,644309.6
+'65,Headgear and parts thereof,41459,46403,52749,56029,69979,53323.8
+'66,"Umbrellas, sun umbrellas, walking sticks, seat-sticks, whips, riding-crops and parts thereof",14292,15238,18511,22264,24947,19050.4
+'67,Prepared feathers and down and articles made of feathers or of down; artificial flowers; articles ...,16522,17196,22870,23483,26649,21344
+'68,"Articles of stone, plaster, cement, asbestos, mica or similar materials",321991,365818,389806,394696,421748,378811.8
+'69,Ceramic products,638723,781130,768619,759850,746312,738926.8
+'70,Glass and glassware,954933,1130234,1113544,1238417,1184966,1124418.8
+'71,"Natural or cultured pearls, precious or semi-precious stones, precious metals, metals clad ...",8079318,12478071,16892857,13582899,21585830,14523795
+'72,Iron and steel,9345539,15309210,14552166,12123645,11185245,12503161
+'73,Articles of iron or steel,5961480,7342423,7928216,7858799,8559044,7529992.4
+'74,Copper and articles thereof,3881791,6341003,6182630,5254879,5798456,5491751.8
+'75,Nickel and articles thereof,70669,100107,125604,117058,125873,107862.2
+'76,Aluminium and articles thereof,3261836,5131779,5745021,4604463,5671151,4882850
+'78,Lead and articles thereof,189907,204675,177101,160208,181044,182587
+'79,Zinc and articles thereof,353130,543538,661470,467649,512282,507613.8
+'80,Tin and articles thereof,85075,62169,83344,141287,156233,105621.6
+'81,Other base metals; cermets; articles thereof,73382,124859,153526,144862,228601,145046
+'82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof of base metal",951115,1142574,1076211,961793,979742,1022287
+'83,Miscellaneous articles of base metal,630021,795792,866328,793184,881841,793433.2
+'84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",25966779,30051930,29280605,31034871,36363443,30539525.6
+'85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers, television ...",43442591,53072826,57780915,58976988,65615859,55777835.8
+'86,"Railway or tramway locomotives, rolling stock and parts thereof; railway or tramway track fixtures ...",471622,260613,359730,205320,87272,276911.4
+'87,"Vehicles other than railway or tramway rolling stock, and parts and accessories thereof",9526671,10238407,11209743,14805278,10864117,11328843.2
+'88,"Aircraft, spacecraft, and parts thereof",1108471,1201189,1447081,2104876,2839555,1740234.4
+'89,"Ships, boats and floating structures",652117,1423326,1332534,1508869,2510278,1485424.8
+'90,"Optical, photographic, cinematographic, measuring, checking, precision, medical or surgical ...",5450317,6327758,6391019,6668972,6908101,6349233.4
+'91,Clocks and watches and parts thereof,580083,713371,862014,1034210,903925,818720.6
+'92,Musical instruments; parts and accessories of such articles,47205,46184,48152,53256,49681,48895.6
+'93,Arms and ammunition; parts and accessories thereof,443609,166012,346902,322386,79890,271759.8
+'94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; ...",1174900,1490354,1542562,1547227,1698420,1490692.6
+'95,"Toys, games and sports requisites; parts and accessories thereof",360785,416129,366923,414114,509537,413497.6
+'96,Miscellaneous manufactured articles,402745,436772,486093,491966,570121,477539.4
+'97,"Works of art, collectors' pieces and antiques",8216,7803,11860,32184,84445,28901.6
+'99,Commodities not elsewhere specified,0,0,0,0,0,0
